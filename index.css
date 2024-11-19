@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Tabla {
+    width: 80%;
+    overflow-x: auto;
+}
+
+.Tabla-cursos {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Tabla-cursos th,
+.Tabla-cursos td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.Tabla-cursos  th {
+    background-color: #959595;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.Tabla-cursos tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabla-frutas tr:hover {
+    background-color: #dccece;
+}
